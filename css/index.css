@@ -197,3 +197,46 @@ nav {
 #box10 {
     background: dodgerblue;
 }
+
+.about-page-headline {
+    border-bottom: 1px dashed black;
+    margin: 1em;
+}
+
+.about-page-headline p {
+    padding-bottom: 1em;
+}
+
+.container-1, .container-2, .container-3, .container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1em;
+    border-bottom: 1px dashed black;
+    max-width: 45%;
+}
+
+.container-farm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+.outro {
+    margin-top: 1.5em;
+}
+
